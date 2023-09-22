@@ -1,0 +1,51 @@
+.main h1 {
+  text-align: center;
+  color: #007bff;
+  font-weight: bold;
+}
+.main .main-card {
+  padding-top: 10px;
+  background: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the column width as needed */
+  gap: 10px; /* Adjust the gap between book cards */
+}
+.main .main-card .book-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+.main .main-card .book-card .book-image {
+  height: 15rem;
+  border: 1px solid black;
+  justify-content: center;
+  align-content: center;
+}
+.main .main-card .book-card .book-image2:hover {
+  border-radius: 6px;
+  cursor: pointer;
+}
+.main .main-card .book-card .related-button {
+  display: block;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 492px) {
+  .main h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 316px) {
+  .main h1 {
+    font-size: 13px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */
