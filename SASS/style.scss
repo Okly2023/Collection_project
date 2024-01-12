@@ -1,8 +1,12 @@
+
+
 .main{
+  
    h1{
     text-align: center;
     color: #007bff;
     font-weight: bold;
+    
    }
   .main-card{
    padding-top: 10px;
@@ -27,6 +31,7 @@
             border-radius: 6px;
             cursor: pointer;
           }
+         
           .related-button {
           
             display: block;
@@ -42,7 +47,7 @@
           }
           }
         }
-  
+      
 
   @media screen and (max-width: 492px) {
          .main{
